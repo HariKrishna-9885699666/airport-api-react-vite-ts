@@ -2,6 +2,10 @@
 
 A responsive web application that allows users to search for airports by name, filter by country and timezone, and view details about each airport. The app leverages the Airports API (from API Ninjas) to fetch data and provides an intuitive interface for searching and exploring airport information.
 
+## Live Demo
+
+You can check out the live demo of the application here: [Airport Search Demo](https://airport-api-react-vite-ts.netlify.app/)
+
 ## Features
 
 - **Search Functionality:** Search for airports by name, country, or timezone.
