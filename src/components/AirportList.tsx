@@ -177,7 +177,7 @@ const AirportList: React.FC = () => {
             zIndex: 1000,
           }}
         >
-          <Spinner animation="border" variant="primary" size="lg" />
+          <Spinner animation="border" variant="primary" size="sm" />
         </div>
       )}
 
