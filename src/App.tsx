@@ -1,17 +1,27 @@
 import AirportList from "./components/AirportList";
 import FloatingIcon from "./FloatingIcon";
+import { Container, Navbar } from "react-bootstrap";
 
 function App() {
   return (
     <div>
-      <nav className="navbar navbar-light bg-light mb-5">
-        <div className="container-fluid d-flex justify-content-center">
-          <span className="navbar-brand mb-0 h1 text-center">
+      <Navbar bg="light" expand="lg" className="mb-5">
+        <Container fluid>
+          <Navbar.Brand
+            className="mx-auto text-center"
+            style={{ width: "100%", whiteSpace: "normal" }}
+          >
+            {" "}
+            {/* Add whiteSpace: "normal" */}
             Airport Tracker - Vite + React + TS + Bootstrap CSS
-          </span>
-        </div>
-      </nav>
-      <AirportList />
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+
+      <Container>
+        <AirportList />
+      </Container>
+
       <FloatingIcon />
     </div>
   );

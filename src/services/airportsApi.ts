@@ -6,7 +6,7 @@ const API_URL = "https://api.api-ninjas.com/v1/airports";
 // Instead, these values should be stored in environment variables and accessed using the process.env object.
 // This helps to keep sensitive information secure and separate from the application code.
 // In this case, the REACT_APP_API_NINJA_KEY environment variable should be defined in the .env file or in the hosting platform's environment configuration.
-const API_KEY = process.env.REACT_APP_API_NINJA_KEY || 'tOK4dDb0/maoKPjdBBOZeA==9Un1kJzyclB50MdY';
+const API_KEY = process.env.VITE_API_NINJA_KEY;
 
 export async function fetchAirports(
   nameQuery: string,
