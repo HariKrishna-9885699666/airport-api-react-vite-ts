@@ -62,6 +62,14 @@ const FloatingIcon: React.FC = () => {
                           Github
                         </a>
                   </ListGroup.Item>
+                  <ListGroup.Item>
+                  <a
+                          href="https://harikrishna.netlify.app/"
+                          target="_blank"
+                        >
+                          Portfolio
+                        </a>
+                  </ListGroup.Item>
                 </ListGroup>
               </Accordion.Body>
             </Accordion.Item>
