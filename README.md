@@ -35,7 +35,7 @@ A responsive web application that allows users to search for airports by name, f
 
 2. **Clone the repository:**
    ```bash
-   git clone https://your-repository-url.git
+   git clone https://github.com/HariKrishna-9885699666/airport-api-react-vite-ts.git
    cd airport-api-react-vite-ts
    npm install
    npm run dev
