@@ -30,7 +30,7 @@ A responsive web application that allows users to search for airports by name, f
 ## Installation
 
 1. **Prerequisites:**
-   - Node.js (version 14 or higher):  Download and install from [https://nodejs.org/](https://nodejs.org/)
+   - Node.js (version 14 or higher)
    - npm (or yarn): Usually comes bundled with Node.js.
 
 2. **Clone the repository:**
