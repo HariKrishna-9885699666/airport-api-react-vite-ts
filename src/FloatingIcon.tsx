@@ -29,7 +29,7 @@ const FloatingIcon: React.FC = () => {
 
       <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Modal Title</Modal.Title>
+          <Modal.Title>About App</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Accordion defaultActiveKey="0">
